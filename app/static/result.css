@@ -75,5 +75,5 @@ p {
 .lastment {
   font-size: 12px; /* 조정: 모바일에서 마지막 문구 폰트 크기 작게 설정 */
   color: white;
-  background-color: rgb(202, 204, 209);
+  background-color: #e3aaaa;
 }
