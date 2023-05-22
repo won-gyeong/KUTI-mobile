@@ -107,6 +107,7 @@ function displayQuestion() {
   var currentQuestion = questions[currentQuestionIndex];
   // questionTitle.textContent = "Question " + (currentQuestionIndex + 1);
   questionText.textContent = currentQuestion.text;
+  questionProgress.textContent = currentQuestionIndex + 1 + "/12";
 
   choicesSection.innerHTML = ""; // Clear previous choices
 
