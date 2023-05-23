@@ -12,6 +12,9 @@ const classification = document.getElementById("clas").innerText;
 const contentSection = document.querySelector(".contentSection");
 
 console.log(classification[0]);
+console.log(classification[1]);
+console.log(classification[2]);
+console.log(classification[3]);
 
 if (classification[0] == "A") {
   const li = document.createElement("li");
@@ -33,19 +36,19 @@ if (classification[1] == "C") {
   contentSection.appendChild(li);
 }
 
-if (classification[1] == "E") {
+if (classification[2] == "E") {
   const li = document.createElement("li");
   li.innerText =
-    "✅ 웨이팅보다는 할 수 있는 것을 빠르게 찾아서 즐기는 실행력있는 사람이네요 ☺";
+    "✅ 웨이팅보다는 할 수 있는 것을 빠르게 찾아서 즐기는 실행력있는 사람이네요 🎶";
   contentSection.appendChild(li);
 } else {
   const li = document.createElement("li");
   li.innerText =
-    "✅ 원하는 목표를 이루기 위해 오랫동안 웨이팅할 의향이 있는 참을성 강한 사람이네요 ☺ ";
+    "✅ 원하는 목표를 이루기 위해 오랫동안 웨이팅할 의향이 있는 참을성 강한 사람이네요 🌟";
   contentSection.appendChild(li);
 }
 
-if (classification[1] == "L") {
+if (classification[3] == "L") {
   const li = document.createElement("li");
   li.innerText =
     "✅ 두근두근! 이번 축제에서 새로운 인연을 만나 사랑 가득한 캠퍼스 라이프를 꿈꿔보아요 ❤";
